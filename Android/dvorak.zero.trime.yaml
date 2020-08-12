@@ -439,7 +439,7 @@ preset_keyboards:
       # 第四行
       - {height: *VJM, click: K_number, composing: SX, width: 17.5,  key_symbol_offset_x: 16, long_click: K_menu, swipe_up: Menu, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh} #方案选择
       - {click: ",", label: "，", key_text_size: 25, long_click: "！", width: 15, key_text_offset_x: 5, key_back_color: bdb, key_text_color: bdt, key_symbol_color: 0x00, hilited_key_back_color: AAH, hilited_key_text_color: 0x00}
-      - {click: space, swipe_up: "K_default", key_text_size: 9, key_text_offset_x: 20, long_click: K_default, swipe_left: Left, swipe_right: Right, key_text_offset_y: 2, key_text_color: kgs, hilited_key_text_color: 0xffffffff, hilited_key_symbol_color: 0x00ffffff, key_symbol_color: 0x00ffffff, hilited_key_back_color: zkgh, width: 34}
+      - {click: space, swipe_up: "K_default", swipe_down: "/", key_text_size: 9, key_text_offset_x: 20, long_click: K_default, swipe_left: Left, swipe_right: Right, key_text_offset_y: 2, key_text_color: kgs, hilited_key_text_color: 0xffffffff, hilited_key_symbol_color: 0x00ffffff, key_symbol_color: 0x00ffffff, hilited_key_back_color: zkgh, width: 34}
       - {click: "&", long_click: "&614@725$", key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAP, hilited_key_back_color: AAH, width: 15}
       - {click: Return, key_symbol_offset_x: 20, long_click: Color_switch, swipe_up: Theme_settings, key_back_color: hcb, key_text_color: hct, key_symbol_color: hcs, hilited_key_back_color: AAH, hilited_key_text_color: 0x00, hilited_key_symbol_color: hchs, width: 18}
   cjbj:
