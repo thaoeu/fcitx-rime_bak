@@ -53,7 +53,7 @@ style:
   horizontal: false #水平模式
   horizontal_gap: *FJL #符号键盘列间距
   layout: #悬浮窗口位置
-    position: false #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
+    position: fixed #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
     min_length: 1 #候选窗口最小词长
     max_length: 10 #超过字数则换行
     sticky_lines: 0 #固顶行数
@@ -189,11 +189,11 @@ preset_keyboards:
       - {click: b, label: 卞, hint: x,long_click: cut, key_text_color: TEX3, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH}
       - {click: n, label: 牜, hint: b,long_click: "/", key_text_color: TEX4, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH}
       - {click: m, label: 朩, hint: m,long_click: ":", key_text_color: TEX5, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH}
-      - {click: BackSpace, swipe_down: lua_script_all, swipe_up: Candidate_switch1, key_back_color: hsb, hilited_key_back_color: hsh, key_text_color: hst, width: 15}
+      - {click: BackSpace, swipe_down: Hint_switch1, swipe_up: Candidate_switch1, key_back_color: hsb, hilited_key_back_color: hsh, key_text_color: hst, width: 15}
       # 第四行
       - {height: *VJM, click: K_number, composing: SX, width: 17.5,  key_symbol_offset_x: 16, long_click: K_menu, swipe_up: Menu, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh} #方案选择
       - {click: ",", label: "  ，", width: 17.5, key_symbol_offset_x: 16, long_click: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      - {click: space, width: 33, key_text_size: 9, swipe_up: K_dvorak, long_click: K_dvorak, swipe_left: Left, swipe_right: Right, key_back_color: zkgb, key_text_offset_y: 2, key_text_color: kgs, hilited_key_text_color: 0xffffffff, hilited_key_symbol_color: 0x00ffffff, key_symbol_color: 0x00ffffff, hilited_key_back_color: zkgh}
+      - {click: space, width: 33, key_text_size: 9, swipe_up: K_dvorak, swipe_down: lua_script_all, long_click: K_dvorak, swipe_left: Left, swipe_right: Right, key_back_color: zkgb, key_text_offset_y: 2, key_text_color: kgs, hilited_key_text_color: 0xffffffff, hilited_key_symbol_color: 0x00ffffff, key_symbol_color: 0x00ffffff, hilited_key_back_color: zkgh}
       - {click: ";", composing: CX, width: 17, key_text_size: 15,  long_click: "?", swipe_up: ".", ascii: ".", key_text_offset_y: 2, key_symbol_offset_y: 6, key_symbol_offset_x: 0, key_back_color: ykgb, key_text_color: ykgt, hilited_key_text_color: 0x00ffffff, key_symbol_color: kgs, hilited_key_back_color: ykgh}
       - {click: Return, width: 15, key_symbol_offset_x: 20, long_click: Color_switch, swipe_up: Theme_settings, key_back_color: hcb, key_text_color: hct, key_symbol_color: hcs, hilited_key_back_color: hch, hilited_key_text_color: hcht, hilited_key_symbol_color: hchs}
     name: "默认26键"
