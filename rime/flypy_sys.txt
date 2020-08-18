@@ -1,16 +1,16 @@
 # coding: utf-8
 # 小鹤音形符号、补充简码等词库
-# 该文件以UTF-8编码保存
-# 编码格式：字词+Tab符+编码（词库本身有重码则还需后面+Tab符+权重，权重大者居前，权重数字随意）
-# 
-#    === 强调一下 === 
-# 
-#   词条和编码之间的不是空格，而是Tab符，如果你不知道，就复制下面编码中的空白处
-#   或者按住键盘 G 键，切换到功能键盘，使用上面的Tab键
-# 
+# 该文件以 UTF-8 编码保存
+# 编码格式：字词 +Tab 符 + 编码（词库本身有重码则还需后面 +Tab 符 + 权重，权重大者居前，权重数字随意）
+#
+#    === 强调一下 ===
+#
+#   词条和编码之间的不是空格，而是 Tab 符，如果你不知道，就复制下面编码中的空白处
+#   或者按住键盘 G 键，切换到功能键盘，使用上面的 Tab 键
+#
 #    ================
-# 
-# 本词库默认包含了临时生僻字、补充简码、增补字、符号及部分emoji表情
+#
+# 本词库默认包含了临时生僻字、补充简码、增补字、符号及部分 emoji 表情
 
 https://flypy.com	xhgw
 https://bbs.flypy.com	xhlt
@@ -62,8 +62,6 @@ http://flypy.ys168.com	xhwp
 💤	uv
 💔	ux
 🐂	nq
-🐂🚶	nr
-🐎🐎🐅🐅	mh
 🐾🐎👀🌸	gh
 🖕	cc
 🤔	sk
@@ -262,7 +260,7 @@ http://flypy.ys168.com	xhwp
 〔	on
 〕	om
 ；	of
-成组标点d	ofb
+成组标点 d	ofb
 “”	ofbd	100
 （）	ofbd	99
 《》	ofbd	98
@@ -297,7 +295,7 @@ http://flypy.ys168.com	xhwp
 	ofbd	69
 ｀	ofbd	68
 ｜	ofbd	67
-成组点数u	ofd	100
+成组点数 u	ofd	100
 ⒈	ofdu	100
 ⒉	ofdu	99
 ⒊	ofdu	98
@@ -318,7 +316,7 @@ http://flypy.ys168.com	xhwp
 ⒙	ofdu	83
 ⒚	ofdu	82
 ⒛	ofdu	81
-成组单位w	ofd	99
+成组单位 w	ofd	99
 ㎎	ofdw	100
 ㎏	ofdw	99
 ㎜	ofdw	98
@@ -333,7 +331,7 @@ nm	ofdw	94
 ㏑	ofdw	89
 ㏒	ofdw	88
 ㏕	ofdw	87
-成组俄大d	ofe	100
+成组俄大 d	ofe	100
 А	ofed	100
 Б	ofed	99
 В	ofed	98
@@ -367,7 +365,7 @@ nm	ofdw	94
 Ю	ofed	70
 Я	ofed	69
 Ё	ofed	68
-成组俄小x	ofe	99
+成组俄小 x	ofe	99
 а	ofex	100
 б	ofex	99
 в	ofex	98
@@ -422,7 +420,7 @@ nm	ofdw	94
 ⒅	ofku	83
 ⒆	ofku	82
 ⒇	ofku	81
-成组货币b	ofh
+成组货币 b	ofh
 €	ofhb	100
 $	ofhb	99
 ￠	ofhb	98
@@ -443,97 +441,7 @@ $	ofhb	99
 ╒	ofht	91
 ╛	ofht	90
 ╘	ofht	89
-成组日大d	ofr	100
-ァ	ofrd	100
-ア	ofrd	99
-ィ	ofrd	98
-イ	ofrd	97
-ゥ	ofrd	96
-ウ	ofrd	95
-ェ	ofrd	94
-エ	ofrd	93
-ォ	ofrd	92
-オ	ofrd	91
-カ	ofrd	90
-ガ	ofrd	89
-キ	ofrd	88
-ギ	ofrd	87
-ク	ofrd	86
-グ	ofrd	85
-ケ	ofrd	84
-ゲ	ofrd	83
-コ	ofrd	82
-ゴ	ofrd	81
-サ	ofrd	80
-ザ	ofrd	79
-シ	ofrd	78
-ジ	ofrd	77
-ス	ofrd	76
-ズ	ofrd	75
-セ	ofrd	74
-ゼ	ofrd	73
-ソ	ofrd	72
-ゾ	ofrd	71
-タ	ofrd	70
-ダ	ofrd	69
-チ	ofrd	68
-ヂ	ofrd	67
-ッ	ofrd	66
-ツ	ofrd	65
-ヅ	ofrd	64
-テ	ofrd	63
-デ	ofrd	62
-ト	ofrd	61
-ド	ofrd	60
-ナ	ofrd	59
-ニ	ofrd	58
-ヌ	ofrd	57
-ネ	ofrd	56
-ノ	ofrd	55
-ハ	ofrd	54
-バ	ofrd	53
-パ	ofrd	52
-ヒ	ofrd	51
-ビ	ofrd	50
-ピ	ofrd	49
-フ	ofrd	48
-ブ	ofrd	47
-プ	ofrd	46
-ヘ	ofrd	45
-ベ	ofrd	44
-ペ	ofrd	43
-ホ	ofrd	42
-ボ	ofrd	41
-ポ	ofrd	40
-マ	ofrd	39
-ミ	ofrd	38
-ム	ofrd	37
-メ	ofrd	36
-モ	ofrd	35
-ャ	ofrd	34
-ヤ	ofrd	33
-ュ	ofrd	32
-ユ	ofrd	31
-ョ	ofrd	30
-ヨ	ofrd	29
-ラ	ofrd	28
-リ	ofrd	27
-ル	ofrd	26
-レ	ofrd	25
-ロ	ofrd	24
-ヮ	ofrd	23
-ワ	ofrd	22
-ヰ	ofrd	21
-ヱ	ofrd	20
-ヲ	ofrd	19
-ン	ofrd	18
-ヴ	ofrd	17
-ヵ	ofrd	16
-ヶ	ofrd	15
-ー	ofrd	14
-ヽ	ofrd	13
-ヾ	ofrd	12
-成组箭头t	ofj
+成组箭头 t	ofj
 ←	ofjt	100
 →	ofjt	99
 ↑	ofjt	98
@@ -544,95 +452,7 @@ $	ofhb	99
 ↖	ofjt	93
 ↔	ofjt	92
 ↕	ofjt	91
-成组日小x	ofr	99
-ぁ	ofrx	100
-あ	ofrx	99
-ぃ	ofrx	98
-い	ofrx	97
-ぅ	ofrx	96
-う	ofrx	95
-ぇ	ofrx	94
-え	ofrx	93
-ぉ	ofrx	92
-お	ofrx	91
-か	ofrx	90
-が	ofrx	89
-き	ofrx	88
-ぎ	ofrx	87
-ぱ	ofrx	86
-く	ofrx	85
-ぐ	ofrx	84
-け	ofrx	83
-げ	ofrx	82
-こ	ofrx	81
-ご	ofrx	80
-さ	ofrx	79
-ざ	ofrx	78
-し	ofrx	77
-じ	ofrx	76
-す	ofrx	75
-ず	ofrx	74
-せ	ofrx	73
-ぜ	ofrx	72
-そ	ofrx	71
-ぞ	ofrx	70
-た	ofrx	69
-だ	ofrx	68
-ち	ofrx	67
-ぢ	ofrx	66
-っ	ofrx	65
-つ	ofrx	64
-づ	ofrx	63
-て	ofrx	62
-で	ofrx	61
-と	ofrx	60
-ど	ofrx	59
-な	ofrx	58
-に	ofrx	57
-ぬ	ofrx	56
-ね	ofrx	55
-の	ofrx	54
-は	ofrx	53
-ば	ofrx	52
-ひ	ofrx	51
-び	ofrx	50
-ぴ	ofrx	49
-ふ	ofrx	48
-ぶ	ofrx	47
-ぷ	ofrx	46
-へ	ofrx	45
-べ	ofrx	44
-ぺ	ofrx	43
-ほ	ofrx	42
-ぼ	ofrx	41
-ぽ	ofrx	40
-ま	ofrx	39
-み	ofrx	38
-む	ofrx	37
-め	ofrx	36
-も	ofrx	35
-ゃ	ofrx	34
-や	ofrx	33
-ゅ	ofrx	32
-ゆ	ofrx	31
-ょ	ofrx	30
-よ	ofrx	29
-ら	ofrx	28
-り	ofrx	27
-る	ofrx	26
-れ	ofrx	25
-ろ	ofrx	24
-ゎ	ofrx	23
-わ	ofrx	22
-ゐ	ofrx	21
-ゑ	ofrx	20
-を	ofrx	19
-ん	ofrx	18
-゛	ofrx	17
-゜	ofrx	16
-ゝ	ofrx	15
-ゞ	ofrx	14
-成组偏旁p	ofp	100
+成组偏旁 p	ofp	100
 勹	ofpp	100
 灬	ofpp	99
 冫	ofpp	98
@@ -674,7 +494,7 @@ $	ofhb	99
 夂	ofpp	62
 丶	ofpp	61
 丬	ofpp	60
-成组拼音y	ofp	99
+成组拼音 y	ofp	99
 ā	ofpy	100
 á	ofpy	99
 ǎ	ofpy	98
@@ -701,7 +521,7 @@ $	ofhb	99
 ú	ofpy	77
 ǔ	ofpy	76
 ù	ofpy	75
-成组罗大d	ofl	100
+成组罗大 d	ofl	100
 Ⅰ	ofld	100
 Ⅱ	ofld	99
 Ⅲ	ofld	98
@@ -714,7 +534,7 @@ $	ofhb	99
 Ⅹ	ofld	91
 Ⅺ	ofld	90
 Ⅻ	ofld	89
-成组罗小x	ofl	99
+成组罗小 x	ofl	99
 ⅰ	oflx	100
 ⅱ	oflx	99
 ⅲ	oflx	98
@@ -725,7 +545,7 @@ $	ofhb	99
 ⅷ	oflx	93
 ⅸ	oflx	92
 ⅹ	oflx	91
-成组特殊u	oft
+成组特殊 u	oft
 ℃	oftu	100
 °	oftu	99
 ‰	oftu	98
@@ -748,12 +568,12 @@ $	ofhb	99
 〓	oftu	81
 ＃	oftu	80
 ＆	oftu	79
-＠	oftu	78
+@	oftu	78
 ＼	oftu	77
 ＾	oftu	76
 ＿	oftu	75
 ￣	oftu	74
-成组数学x	ofu
+成组数学 x	ofu
 ＋	ofux	100
 －	ofux	99
 ＜	ofux	98
@@ -799,7 +619,7 @@ $	ofhb	99
 ⊙	ofux	58
 ⊥	ofux	57
 ⊿	ofux	56
-成组中数u	ofv	100
+成组中数 u	ofv	100
 ㈠	ofvu	100
 ㈡	ofvu	99
 ㈢	ofvu	98
@@ -810,7 +630,7 @@ $	ofhb	99
 ㈧	ofvu	93
 ㈨	ofvu	92
 ㈩	ofvu	91
-成组注音y	ofv	99
+成组注音 y	ofv	99
 ㄅ	ofvy	100
 ㄆ	ofvy	99
 ㄇ	ofvy	98
@@ -848,7 +668,7 @@ $	ofhb	99
 ㄤ	ofvy	66
 ㄥ	ofvy	65
 ㄦ	ofvy	64
-成组西大d	ofx	100
+成组西大 d	ofx	100
 Α	ofxd	100
 Β	ofxd	99
 Γ	ofxd	98
@@ -873,7 +693,7 @@ $	ofhb	99
 Χ	ofxd	79
 Ψ	ofxd	78
 Ω	ofxd	77
-成组西小x	ofx	99
+成组西小 x	ofx	99
 α	ofxx	100
 β	ofxx	99
 γ	ofxx	98
@@ -898,7 +718,7 @@ $	ofhb	99
 χ	ofxx	79
 ψ	ofxx	78
 ω	ofxx	77
-成组圆数u	ofy
+成组圆数 u	ofy
 ①	ofyu	100
 ②	ofyu	99
 ③	ofyu	98
@@ -909,7 +729,7 @@ $	ofhb	99
 ⑧	ofyu	93
 ⑨	ofyu	92
 ⑩	ofyu	91
-成组制表b	ofv	99
+成组制表 b	ofv	99
 ┌	ofvb	100
 └	ofvb	99
 ┐	ofvb	98
@@ -921,7 +741,7 @@ $	ofhb	99
 ┬	ofvb	92
 ┴	ofvb	91
 ┼	ofvb	90
-成组上标b	ofu	99
+成组上标 b	ofu	99
 ¹	ofub	100
 ²	ofub	99
 ³	ofub	98
@@ -939,7 +759,7 @@ $	ofhb	99
 ⁾	ofub	86
 ⁿ	ofub	85
 ˣ	ofub	84
-成组下标b	ofx	99
+成组下标 b	ofx	99
 ₁	ofxb	100
 ₂	ofxb	99
 ₃	ofxb	98
