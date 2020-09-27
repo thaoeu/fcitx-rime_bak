@@ -431,7 +431,7 @@ preset_keyboards:
       - {click: j, long_click: "qj11259375", swipe_up: "11259375", key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAE, hilited_key_back_color: AAH}
       - {click: k, long_click: "s154942630", swipe_up: "154942630", key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAY, hilited_key_back_color: AAH}
       - {click: x, long_click: cut, swipe_up: cut, key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAI, hilited_key_back_color: AAH}
-      - {click: b, long_click: "17758827385", key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAP, hilited_key_back_color: AAH}
+      - {click: b, key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAP, hilited_key_back_color: AAH}
       - {click: m, long_click: "13115695360", key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAP, hilited_key_back_color: AAH}
       - {click: w, long_click: "17545127614", key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAP, hilited_key_back_color: AAH}
       - {click: v, long_click: paste, swipe_up: paste, key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAP, hilited_key_back_color: AAH}
@@ -678,17 +678,17 @@ preset_keyboards:
     key_text_offset_y: *DtextY
     keys:
       - {click: "+", key_text_offset_x: 3, key_symbol_offset_x: -15, key_symbol_offset_y: 14, long_click: "@"}
-      - {click: 1}
+      - {click: 1, long_click: "17545127614"}
       - {click: 2}
       - {click: 3}
       - {click: K_back, width: 19, key_back_color: szgnb}
       - {click: "-", key_text_offset_x: 3, key_symbol_offset_x: -15, key_symbol_offset_y: 14, long_click: ":"}
       - {click: 4}
       - {click: 5}
-      - {click: 6}
+      - {click: 6, long_click: "&614"}
       - {click: space1, width: 19, key_back_color: szgnb}
       - {click: "*", key_text_offset_x: 3, key_symbol_offset_x: -15, key_symbol_offset_y: 12, long_click: "%"}
-      - {click: 7}
+      - {click: 7, long_click: "@725"}
       - {click: 8}
       - {click: 9}
       - {click: BackSpace, width: 19, key_back_color: szgnb}
