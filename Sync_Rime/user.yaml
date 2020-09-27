@@ -1,0 +1,10 @@
+var:
+  last_build_time: 1601190723
+  option:
+    _hide_candidate: true
+    _hide_comment: false
+    _hide_key_hint: true
+    ascii_mode: false
+  previously_selected_schema: flypy
+  schema_access_time:
+    flypy: 1592666006
