@@ -26,4 +26,4 @@ cp ./Android/dvorak.zero.trime.yaml /home/Flypy
 - 支持自定义字符替换键盘按键
 
 ## Windows
-没啥说的，一路小一步就好
+没啥说的
