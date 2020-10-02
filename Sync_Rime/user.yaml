@@ -1,7 +1,7 @@
 var:
-  last_build_time: 1601190723
+  last_build_time: 1601376954
   option:
-    _hide_candidate: true
+    _hide_candidate: false
     _hide_comment: false
     _hide_key_hint: true
     ascii_mode: false
