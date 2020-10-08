@@ -1,9 +1,9 @@
 var:
-  last_build_time: 1601376954
+  last_build_time: 1602137290
   option:
     _hide_candidate: false
     _hide_comment: false
-    _hide_key_hint: true
+    _hide_key_hint: false
     ascii_mode: false
   previously_selected_schema: flypy
   schema_access_time:

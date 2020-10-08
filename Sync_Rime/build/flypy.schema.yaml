@@ -1,10 +1,10 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-    default: 1601040511
+    default: 1602137290
     default.custom: 0
     flypy.custom: 0
-    flypy.schema: 1601040511
+    flypy.schema: 1602137290
 custom_phraseVD:
   db_class: stabledb
   dictionary: ""
