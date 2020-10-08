@@ -158,38 +158,38 @@ preset_keyboards:
     label_transform: uppercase #uppercase|none 中文模式下的字母标签自动大写
     keys:
       # 第一行
-      - {click: q, label: 犭, long_click: 1, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH} 
-      - {click: w, label: 亠, long_click: 2, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH} 
-      - {click: e, label: 山, hint: p, long_click: 3, key_text_color: TEX2, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH} 
-      - {click: r, label: 人, hint: y, long_click: 4, key_text_color: TEX2, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH} 
-      - {click: t, label: 田, hint: f, long_click: 5, key_text_color: TEX3, key_symbol_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH, swipe_down: 👴} 
-      - {click: y, label: 衣, hint: g, long_click: 6, key_text_color: TEX4, key_symbol_color: TEX, key_back_color: DDD, hilited_key_back_color: AAH} 
-      - {click: u, label: 饣, hint: c, long_click: 7, key_text_color: TEX5, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH} 
-      - {click: i, label: 彳, hint: r, long_click: 8, key_text_color: TEX5, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH} 
-      - {click: o, label: 目, hint: l, long_click: 9, key_text_color: TEX6, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH} 
-      - {click: p, label: 礻, long_click: 0, key_text_color: TEX6, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH} 
+      - {click: q, label: 犭, long_click: 1} 
+      - {click: w, label: 亠, long_click: 2} 
+      - {click: e, label: 山, long_click: 3} 
+      - {click: r, label: 人, hint: p, long_click: 4} 
+      - {click: t, label: 田, hint: y, long_click: 5, swipe_down: 👴} 
+      - {click: y, label: 衣, hint: f, long_click: 6} 
+      - {click: u, label: 饣, hint: g, long_click: 7} 
+      - {click: i, label: 彳, hint: c, long_click: 8} 
+      - {click: o, label: 目, hint: r, long_click: 9} 
+      - {click: p, label: 礻, hint: l, long_click: 0} 
       # 第二行
-      - {click: a, long_click: select_all, swipe_up: select_all, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 3}
-      - {click: a, label: 鱼, hint: a, long_click: select_all, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: s, label: 肃, hint: o, long_click: "^", key_text_color: TEX1, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: d, label: 丹, hint: e, key_text_color: TEX2, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: f, label: 甫, hint: u, long_click: "~", key_text_color: 0x66ccff, key_symbol_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: g, label: 艮, hint: i, long_click: K_use, key_text_color: TEX3, key_symbol_color: TEX, key_back_color: DDD, hilited_key_back_color: AAH}
-      - {click: h, label: 禾, hint: d, long_click: "_", popup: ['——', '_', '-'], key_text_color: TEX4, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH}
-      - {click: j, label: 柬, hint: h, long_click: "#", key_text_color: 0x66ccff, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH}
-      - {click: k, label: 㠯, hint: t, long_click: '"', key_text_color: TEX5, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH}
-      - {click: l, label: 耂, hint: n, long_click: "`", key_text_color: TEX6, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH}
+      - {click: a, long_click: select_all, key_text_color: zyt, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_symbol_color: zyt, width: 3}
+      - {click: a, label: 鱼, hint: a, long_click: select_all}
+      - {click: s, label: 肃, hint: o}
+      - {click: d, label: 丹, hint: e}
+      - {click: f, label: 甫, hint: u, key_text_color: 0x66ccff}
+      - {click: g, label: 艮, hint: i, long_click: K_use}
+      - {click: h, label: 禾, hint: d}
+      - {click: j, label: 柬, hint: h, key_text_color: 0x66ccff}
+      - {click: k, label: 㠯, hint: t}
+      - {click: l, label: 耂, hint: n}
       # 第三行                        long_click: "'", key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
-      - {click: Shift_L, swipe_down: K_defaultmd, composing: Escape, swipe_up: ClearH, width: 8, key_text_color: SHt, hilited_key_back_color: SHh}
-      - {click: z, label: 辶, hint: ;,long_click: "`", key_text_color: TEX1, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
+      - {click: Shift_L, swipe_down: K_defaultmd, composing: Escape, swipe_up: ClearH, width: 8, key_text_color: SHt, hilited_key_back_color: 0x66ccff}
+      - {click: z, label: 辶, hint: ;}
 
-      - {click: x, label: 戌, hint: q,long_click: cut, swipe_up: cut, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: c, label: 册, hint: j,long_click: copy, swipe_up: copy, key_text_color: TEX2, key_symbol_color: TEX, key_back_color: DDD, hilited_key_back_color: AAH}
-      - {click: v, label: 州, hint: k,long_click: paste, key_text_color: TEX2, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH}
-      - {click: b, label: 卞, hint: x,long_click: cut, key_text_color: TEX3, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH}
-      - {click: n, label: 牜, hint: b,long_click: "/", key_text_color: TEX4, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH}
-      - {click: m, label: 朩, hint: m,long_click: ":", key_text_color: TEX5, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH}
-      - {click: BackSpace, swipe_down: Hint_switch1, swipe_up: Candidate_switch1, key_back_color: hsb, hilited_key_back_color: hsh, key_text_color: hst, width: 15}
+      - {click: x, label: 戌, hint: q,long_click: cut}
+      - {click: c, label: 册, hint: j,long_click: copy}
+      - {click: v, label: 州, hint: k,long_click: paste}
+      - {click: b, label: 卞, hint: x,long_click: cut}
+      - {click: n, label: 牛, hint: b}
+      - {click: m, label: 朩, hint: m}
+      - {click: BackSpace, swipe_down: Hint_switch1, swipe_up: Candidate_switch1, key_back_color: hsb, hilited_key_back_color: 0x66ccff, key_text_color: 0x00ffffff, width: 15}
       # 第四行
       - {height: *VJM, click: K_number, composing: SX, width: 17.5,  key_symbol_offset_x: 16, long_click: K_menu, swipe_up: Menu, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh} #方案选择
       - {click: ",", label: "  ，", width: 17.5, key_symbol_offset_x: 16, long_click: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
@@ -1165,14 +1165,14 @@ preset_keys:
   Page_Down1: {label: ⇨, send: Page_Down, functional: false}
   Page_Up1: {label: ⇦, send: Page_Up, functional: false}
   Shift_R: {label: Enter, send: Shift_R}
-  Caps_Lock: {label: Caps, send: Caps_Lock}
-  Shift_L: {functional: true, label: Shift, send: Shift_L, shift_lock: ascii_long} # 中文状态一次锁定，英文状态长按锁定
-  Shift_L1: {functional: true, label: Shift, send: Shift_L, shift_lock: long} # 中文状态长按锁定
-  Shift1: {functional: true, label: ☩, functional: false, preview: '☩', send: Shift_L, shift_lock: click} # 英文状态一次锁定
-  Return: {label: Enter, preview: '↩', send: Return}
+# Caps_Lock: {label: Caps, send: Caps_Lock}
+  Shift_L: {functional: true, label: ⇧, send: Shift_L, shift_lock: long}
+# Shift_L: {functional: true, label: Shift, send: Shift_L, shift_lock: ascii_long} # 中文状态一次锁定，英文状态长按锁定
+# Shift1: {functional: true, label: ☩, functional: false, preview: '☩', send: Shift_L, shift_lock: click} # 英文状态一次锁定
+  Return: {label: ↩, preview: '↩', send: Return}
   Return1: {repeatable: true, label: ↩, preview: '↩', send: Return}
   Hide: {label: ﹀, send: BACK}
-  BackSpace: {label: ⌫, preview: '⌫', repeatable: true, send: BackSpace}
+  BackSpace: {label: ⌫, preview: '删', repeatable: true, send: BackSpace}
   space: {repeatable: false, preview: '␣', functional: false, send: space}
   space1: {repeatable: true, preview: '␣', label: "␣", functional: true, send: space}
   space2: {repeatable: true, preview: '␣', label: " ", functional: false, send: space}
