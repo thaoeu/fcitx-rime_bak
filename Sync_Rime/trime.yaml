@@ -1705,7 +1705,6 @@ preset_keys:
   Schema_settings: {label: 方案, send: SETTINGS, option: "schema"}
   # trime命令
   Date: {label: "☀", send: function, command: date, option: "yyyy年M月d日"} #2020年2月28日
-  #Date: {label: "☀", send: function, command: date, option: "yyyy-MM-dd"} #2020-02-28
   Date1: {label: " ", send: function, command: date, option: "yyyy年M月d日"}
   ChineseDate: {label: " ", send: function, command: date, option: "zh_CN@calendar=chinese"} #农历等日期(>=Android 7.0)：date 语言@calendar=历法 格式。具体參見https://developer.android.com/reference/android/icu/util/Calendar.html
   EnglishDate: {label: " ", send: function, command: date, option: "en_US@calendar=english"}

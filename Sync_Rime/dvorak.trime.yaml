@@ -158,21 +158,21 @@ preset_keyboards:
     label_transform: uppercase #uppercase|none 中文模式下的字母标签自动大写
     keys:
       # 第一行
-      - {click: q, label: 犭, hint: a, long_click: 1, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH} 
-      - {click: w, label: 亠, hint: a, long_click: 2, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH} 
+      - {click: q, label: 犭, long_click: 1, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH} 
+      - {click: w, label: 亠, long_click: 2, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH} 
       - {click: e, label: 山, hint: p, long_click: 3, key_text_color: TEX2, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH} 
       - {click: r, label: 人, hint: y, long_click: 4, key_text_color: TEX2, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH} 
       - {click: t, label: 田, hint: f, long_click: 5, key_text_color: TEX3, key_symbol_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH, swipe_down: 👴} 
       - {click: y, label: 衣, hint: g, long_click: 6, key_text_color: TEX4, key_symbol_color: TEX, key_back_color: DDD, hilited_key_back_color: AAH} 
-      - {click: u, label: 饣, hint: c, long_click: copy, key_text_color: TEX5, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH} 
+      - {click: u, label: 饣, hint: c, long_click: 7, key_text_color: TEX5, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH} 
       - {click: i, label: 彳, hint: r, long_click: 8, key_text_color: TEX5, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH} 
       - {click: o, label: 目, hint: l, long_click: 9, key_text_color: TEX6, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH} 
-      - {click: p, label: 礻, hint: a, long_click: 0, key_text_color: TEX6, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH} 
+      - {click: p, label: 礻, long_click: 0, key_text_color: TEX6, key_symbol_color: TEX, key_back_color: FFF, hilited_key_back_color: CCH} 
       # 第二行
       - {click: a, long_click: select_all, swipe_up: select_all, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 3}
       - {click: a, label: 鱼, hint: a, long_click: select_all, key_text_color: TEX1, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: s, label: 肃, hint: o, long_click: "^", key_text_color: TEX1, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: d, label: 丹, hint: e, long_click: "⌛", popup: ['Date', 'lua_SJXX', 'Keyboard_default'], key_text_color: TEX2, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
+      - {click: d, label: 丹, hint: e, key_text_color: TEX2, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: f, label: 甫, hint: u, long_click: "~", key_text_color: 0x66ccff, key_symbol_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: g, label: 艮, hint: i, long_click: K_use, key_text_color: TEX3, key_symbol_color: TEX, key_back_color: DDD, hilited_key_back_color: AAH}
       - {click: h, label: 禾, hint: d, long_click: "_", popup: ['——', '_', '-'], key_text_color: TEX4, key_symbol_color: TEX, key_back_color: EEE, hilited_key_back_color: BBH}
@@ -206,7 +206,7 @@ preset_keyboards:
         "keys/@2/long_click": "彐山"
         "keys/@3/long_click": "亻"
         "keys/@4/long_click": "田"
-        "keys/@5/long_click": "羊"
+        "keys/@5/long_click": "羊"
         "keys/@6/long_click": "饣石"
         "keys/@7/long_click": "彳亍"
         "keys/@8/long_click": "日月"
@@ -418,7 +418,7 @@ preset_keyboards:
       - {click: a, long_click: select_all, swipe_up: select_all, key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAQ, hilited_key_back_color: AAH}
       - {click: o, long_click: "@", key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAQ, hilited_key_back_color: AAH}
       - {click: e, long_click: "$", swipe_up: Date, key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAE, hilited_key_back_color: AAH}
-      - {click: u, long_click: "aoeuaoeu", key_text_color: 0x66ccff, key_symbol_color: SEX, key_back_color: AAT, hilited_key_back_color: AAH}
+      - {click: u, long_click: aoeuaoeu, key_text_color: 0x66ccff, key_symbol_color: SEX, key_back_color: AAT, hilited_key_back_color: AAH}
       - {click: i, long_click: K_use, swipe_up: K_use, key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAY, hilited_key_back_color: AAH}
       - {click: d, swipe_left: BackSpace, swipe_up: ClearH, swipe_right: BackSpace, key_text_color: TEX, key_symbol_color: SEX, key_back_color: AAI, hilited_key_back_color: AAH}
       - {click: h, long_click: "#", key_text_color: 0x66ccff, key_symbol_color: SEX, key_back_color: AAI, hilited_key_back_color: AAH}
@@ -683,8 +683,8 @@ preset_keyboards:
       - {click: 3, long_click: "17614630036"}
       - {click: K_back, width: 19, key_back_color: szgnb}
       - {click: "-", key_text_offset_x: 3, key_symbol_offset_x: -15, key_symbol_offset_y: 14, long_click: "$"}
-      - {click: 4}
-      - {click: 5}
+      - {click: 4, long_click: CCCC}
+      - {click: 5, long_click: XMJSQ}
       - {click: 6, long_click: "&614"}
       - {click: space1, width: 19, key_back_color: szgnb}
       - {click: "*", key_text_offset_x: 3, key_symbol_offset_x: -15, key_symbol_offset_y: 12, long_click: "%"}
@@ -1108,7 +1108,7 @@ preset_keys:
   POWER: {label: 电源, send: POWER}
   SEARCH: {label: 搜寻, send: Find}
   SLEEP: {label: 休眠, send: SLEEP}
-  VOICE_ASSIST: {label: 🎤, functional: false, send: VOICE_ASSIST}
+  VOICE_ASSIST: {label: 音, functional: false, send: VOICE_UP}
   VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
   VOLUME_UP: {label: 音量+, send: VOLUME_UP}
   VOLUME_MUTE: {label: 静音, send: VOLUME_MUTE}
@@ -1256,6 +1256,7 @@ preset_keys:
   K_switch: {label: 键盘, send: Eisu_toggle, select: .next}
   K_number: {label: ϟ12, send: Eisu_toggle, select: number}
   K_use: {label: "‹ɪ›", send: Eisu_toggle, select: use}
+  aoeuaoeu: {label: "au", send: aoeu}
   K_symbols: {label: "✡", send: Eisu_toggle, select: symbolsEN}
   K_symbolsSZ: {label: "数字", send: Eisu_toggle, select: number}
   K_symbolsEN: {label: "英文", send: Eisu_toggle, select: symbolsEN}
@@ -1304,8 +1305,8 @@ preset_keys:
   MT2: {label: Ⓜ, send: function, command: run, option: "bin.mt.plus"} #MT2app包名
   TIM: {label: Ⓣ, send: function, command: run, option: "com.tencent.tim"} #TIMapp包名
   QQ: {label: Ⓠ, send: function, command: run, option: "com.tencent.mobileqq"} #QQapp包名
+  CCCC: {label: Ⓠ, send: function, command: run, option: "com.tencent.mobileqq"}
   XMJSQ: {label: =, send: function, command: run, option: "com.miui.calculator"} #小米计算器app包名
-  HWJSQ: {label: =, send: function, command: run, option: "com.android.calculator2"} #华为计算器app包名
 
 #配色方案
 preset_color_schemes:
@@ -1369,7 +1370,7 @@ preset_color_schemes:
     keyboard_back_color: 0xFF202022 #键盘背景
 
   36:
-    name: 无缝白·盲打
+    name: Dvk
     text_color: 0xFF0000 #悬浮窗编码
     candidate_text_color: 0x00 #CN次选文字色
     back_color: 0xffffffff #背景同色
@@ -1399,7 +1400,7 @@ preset_color_schemes:
     hilited_candidate_text_color: 0x00 #高亮候选文本
     key_text_color: 0xFF000000
     
-#原版小鹤配色（目前用途是快速查找对应配色代码
+#原版小鹤配色
 #    back_color: 0xffececec #0xffeaeaea背景同色 #候选区背景状态栏
 #    border_color: 0xffe9e9e9 #悬浮窗边框
 #    candidate_separator_color: 0x00000000 #候选分割背景
