@@ -181,12 +181,11 @@ preset_keyboards:
       - {click: l, label: 耂, hint: n}
       # 第三行                        long_click: "'", key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
       - {click: Shift_L, swipe_down: K_defaultmd, composing: Escape, swipe_up: ClearH, width: 8, key_text_color: SHt, hilited_key_back_color: 0x66ccff}
-      - {click: z, label: 辶, hint: ;}
-
-      - {click: x, label: 戌, hint: q,long_click: cut}
-      - {click: c, label: 册, hint: j,long_click: copy}
-      - {click: v, label: 州, hint: k,long_click: paste}
-      - {click: b, label: 卞, hint: x,long_click: cut}
+      - {click: z, label: 辶, hint: ;, long_click: "`"}
+      - {click: x, label: 戌, hint: q, long_click: cut}
+      - {click: c, label: 册, hint: j, long_click: copy}
+      - {click: v, label: 州, hint: k, long_click: paste}
+      - {click: b, label: 卞, hint: x, long_click: cut}
       - {click: n, label: 牛, hint: b}
       - {click: m, label: 朩, hint: m}
       - {click: BackSpace, swipe_down: Hint_switch1, swipe_up: Candidate_switch1, key_back_color: hsb, hilited_key_back_color: 0x66ccff, key_text_color: 0x00ffffff, width: 15}
