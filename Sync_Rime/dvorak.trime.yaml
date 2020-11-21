@@ -179,7 +179,7 @@ preset_keyboards:
       - {click: j, label: 柬, hint: h, key_text_color: 0x66ccff}
       - {click: k, label: 㠯, hint: t}
       - {click: l, label: 耂, hint: n}
-      # 第三行                        long_click: "'", key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
+      # 第三行
       - {click: Shift_L, swipe_down: K_defaultmd, composing: Escape, swipe_up: ClearH, width: 8, key_text_color: SHt, hilited_key_back_color: 0x66ccff}
       - {click: z, label: 辶, hint: ;, long_click: "`"}
       - {click: x, label: 戌, hint: q, long_click: cut}
